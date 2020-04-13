@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Dating Website</title>
+	<link rel="stylesheet" type="text/css" href="ass1.css">
+	<style type="text/css">
+		.demoA {text-align: left; background-color:lightyellow;border-width: 7px; border-color: yellow}
+		.demoB {width: 500px; height: 60px}
+		.demoC {width: 200px; height: 100px}
+	</style>
+
+	<form> 
+		<fieldset>
+			<h1><b>Please Enter Your Details For Our Dating Website!</b></h1>
+			<fieldset class="demoA">
+				<legend>Your Face(没有JS code 无法实现，请跳过)</legend>
+				<label for="gender">Your image: </label><br>
+				<label for="gender">Image preview: </label>
+			</fieldset><br>
+
+			<fieldset class="demoA">
+
+				<legend>Your General Details</legend>			
+				<label for="name">Name:: </label>
+				<input type="text" name="name" placeholder="Your full name"><br>
+
+				<label for="gender">Gender: </label>
+				<input type="radio" name="iq" value="Male"> Male 
+				<input type="radio" name="iq" value="Female">Female<br>
+
+				<label for="age">Age: </label>
+				<input type="number" name="age" min="0" max="150" step="1" value="18" id="age" required><br>
+
+				<label for="birthday">Date of birth: </label>
+				<input type="date" id="birthday" name="birthday" placeholder="mm/dd/yyyy" required><br>
+
+				<label for="color">Favorite color:</label>
+				<input type="color" id="color" name="color"><br>
+
+				<label for="food">Favorite food:</label>
+				<input type="text" name="name"><br>
+
+				<label for="city">Which city: </label>
+				<select name="cities">
+					<option value="xj">新疆</option>
+					<option value="wh">武汉</option>
+					<option value="mb">Melbourne</option>
+				</select><br>
+
+
+				<label for="place">最想去的城市:</label>
+				<input type="text" name="place"><br>
+
+				<label for="明星">最喜欢的韩国明星: </label>
+				<select name="明星">
+					<option value="hd">虎东东</option>
+					<option value="po">PO</option>
+					<option value="sg">寿根叔</option>
+					<option value="yzy">殷志源</option>
+				</select>
+
+			</fieldset><br>
+
+			<fieldset class="demoA">
+				<legend>Your Indicators</legend>
+
+				<label for="height">Height: </label>
+				Short <input type="range" min="0" max="100" step="5" value="50" id="height" name="height">Tall<br><br>
+
+				<label for="salary">Height: </label>
+				Poor <input type="range" min="0" max="100" step="5" value="50" id="salary" name="salary">Rich<br><br>
+			</fieldset><br>
+
+			<fieldset class="demoA">
+				<legend>Your Contact Information</legend>
+
+				<label for="email">Email: </label>
+				<input type="text" name="email"><br>
+
+				<label for="mobile">Mobile: </label>
+				<input type="text" name="mobile"><br>
+
+				<label for="address">Address: </label>
+				<input type="text" name="address" class="demoC"><br><br>
+
+
+				<label for="contact">Method to contact you: </label>
+				<input type="checkbox" name="items" value="email">Email
+				<input type="checkbox" name="items" value="Whatsapp">Whatsapp
+				<input type="checkbox" name="items" value="In-app">In-app chat<br>
+			</fieldset>
+
+			<fieldset >
+				<legend>Private question</legend>
+				1.Do you love the person who wrote this website?<br>
+				<input type="radio" name="iq" value="yes">A.Yes<br>
+				<input type="radio" name="iq" value="a">B.A<br>
+				<input type="radio" name="iq" value="b">B.A<br>
+				<input type="radio" name="iq" value="super">extremely love<br><br>
+
+				2.How much do you miss the the person who wrote this website?<br>
+				Little <input type="range" min="0" max="100" step="5" value="50" id="height" name="height">Much<br><br>
+
+				3.Give your score for this website:
+				<input type="number" name="score" min="100" max="100" step="1" value="100" id="score" required><br><br>
+
+				4.Give some feedback and something you want to say:<br>
+				<input type="text" name="address" class="demoB"><br><br>
+
+			</fieldset>
+
+			<input type="submit" name="Upload this file" value="Submit!">
+			<p>(不要点击,因为没有建立服务器，请截图，谢谢)</p>
+		</fieldset>
+	</form>	
+</head>
+<body>
+
+</body>
+</html>
